@@ -321,6 +321,19 @@
                   "new": false,
                   "number": 9,
                   "score": ""
+                },
+                {
+                  "id": "c72ec567-4d77-4f58-98ce-ffab5da2569a",
+                  "title": "API1:2023 Broken Object Level Authorisation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Attackers can exploit API endpoints that are vulnerable to broken object-level authorisation by manipulating the ID of an object that is sent within the request. Object IDs can be anything from sequential integers, UUIDs, or generic strings. Regardless of the data type, they are easy to identify in the request target (path or query string parameters), request headers, or even as part of the request payload.",
+                  "mitigation": "1) Implement a proper authorization mechanism that relies on the user policies and hierarchy.\n2) Use the authorization mechanism to check if the logged-in user has access to perform the requested action on the record in every function that uses an input from the client to access a record in the database.\n3) Prefer the use of random and unpredictable values as GUIDs for records' IDs.\n4) Write tests to evaluate the vulnerability of the authorization mechanism. Do not deploy changes that make the tests fail.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
                 }
               ],
               "isBidirectional": false,
@@ -406,7 +419,7 @@
             "zIndex": 3,
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Store",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -510,6 +523,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 9
+    "threatTop": 10
   }
 }
