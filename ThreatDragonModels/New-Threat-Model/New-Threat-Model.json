@@ -276,7 +276,7 @@
             "zIndex": 1,
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Process",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -308,6 +308,19 @@
                   "new": false,
                   "number": 4,
                   "score": ""
+                },
+                {
+                  "id": "566abc5c-4808-43c4-8263-00f2d7298673",
+                  "title": "Valid Accounts [T1078]: Default Accounts [T1078.001]",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Adversaries may obtain and abuse credentials of a default account as a means of gaining Initial Access, Persistence, Privilege Escalation, or Defence Evasion. Default accounts are those that are built-into an OS, such as the Guest or Administrator accounts on Windows systems. Default accounts also include default factory/provider set accounts on other types of systems, software, or devices, including the root user account in AWS and the default service account in Kubernetes.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
                 }
               ],
               "isBidirectional": false,
@@ -330,8 +343,8 @@
                 "text": "Threat Agent"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -340,14 +353,32 @@
             "id": "af6663cd-2c61-400f-a2b9-978caa6c851c",
             "zIndex": 2,
             "data": {
-              "type": "tm.Actor",
+              "type": "tm.Flow",
               "name": "Threat Agent",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "d880c8ae-cb94-48f5-bf3b-74b17d2316f9",
+                  "title": "Exploit Public-Facing Application [T1190]",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Adversaries may attempt to exploit a weakness in an Internet-facing host or system to initially access a network. The weakness in the system can be a software bug, a temporary glitch, or a misconfiguration.",
+                  "mitigation": "Application Isolation and Sand-Boxing [M1048]\nExploit Protection [M1050]\nNetwork Segmentation [M1030]\nPrivileged Account Management [M1026]\nUpdate Software [M1051]\nVulnerability Scanning [M1016]\n",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                }
+              ],
+              "isBidirectional": false,
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false
             }
           },
           {
@@ -428,12 +459,57 @@
             "target": {
               "cell": "897a1768-5500-44cc-80e1-e40c3ee4fc6c"
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "7cdc77a3-73b4-4d9c-9f2a-cef5f27a0b08",
+            "source": {
+              "cell": "af6663cd-2c61-400f-a2b9-978caa6c851c"
+            },
+            "target": {
+              "cell": "87a54147-8e13-4417-8414-98266baf3467"
+            },
+            "vertices": [
+              {
+                "x": 510,
+                "y": 220
+              }
+            ]
           }
         ]
       }
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 4
+    "threatTop": 9
   }
 }
