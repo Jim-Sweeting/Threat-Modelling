@@ -35,8 +35,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "87a54147-8e13-4417-8414-98266baf3467",
             "zIndex": 1,
+            "id": "87a54147-8e13-4417-8414-98266baf3467",
             "data": {
               "type": "tm.Flow",
               "name": "Process",
@@ -126,8 +126,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "af6663cd-2c61-400f-a2b9-978caa6c851c",
             "zIndex": 2,
+            "id": "af6663cd-2c61-400f-a2b9-978caa6c851c",
             "data": {
               "type": "tm.Flow",
               "name": "Threat Agent",
@@ -168,18 +168,20 @@
             },
             "attrs": {
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
             "visible": true,
             "shape": "store",
-            "id": "897a1768-5500-44cc-80e1-e40c3ee4fc6c",
             "zIndex": 3,
+            "id": "897a1768-5500-44cc-80e1-e40c3ee4fc6c",
             "data": {
               "type": "tm.Flow",
               "name": "Store",
@@ -190,8 +192,35 @@
               "storesCredentials": false,
               "isEncrypted": false,
               "isSigned": false,
-              "hasOpenThreats": false,
-              "threats": [],
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "c25aa685-306f-441d-aad4-bdb9b480c1ed",
+                  "title": "Data Manipulation [Mitre ATT&CK T1565]",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Adversaries may insert, delete, or manipulate data in order to influence external outcomes or hide activity, thus threatening the integrity of the data. By manipulating data, adversaries may attempt to affect a business process, organisational understanding, or decision making.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "score": ""
+                },
+                {
+                  "id": "7fdc4b80-42a5-4d44-9be7-c9247c0e656c",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "score": ""
+                }
+              ],
               "isBidirectional": false,
               "protocol": "",
               "isPublicNetwork": false
@@ -286,6 +315,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 10
+    "threatTop": 12
   }
 }
