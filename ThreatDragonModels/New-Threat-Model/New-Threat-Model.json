@@ -19,6 +19,26 @@
         "cells": [
           {
             "position": {
+              "x": 510,
+              "y": 150
+            },
+            "size": {
+              "width": 430,
+              "height": 140
+            },
+            "shape": "trust-boundary-box",
+            "id": "a3d689b2-6245-4c40-a7d7-00d0720a7dbf",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 600,
               "y": 190
             },
@@ -206,19 +226,6 @@
                   "new": false,
                   "number": 11,
                   "score": ""
-                },
-                {
-                  "id": "7fdc4b80-42a5-4d44-9be7-c9247c0e656c",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Information disclosure",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 12,
-                  "score": ""
                 }
               ],
               "isBidirectional": false,
@@ -315,6 +322,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 12
+    "threatTop": 13
   }
 }
