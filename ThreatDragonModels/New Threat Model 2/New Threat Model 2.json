@@ -222,6 +222,37 @@
               "isEncrypted": false,
               "isPublicNetwork": false
             }
+          },
+          {
+            "position": {
+              "x": 167,
+              "y": 130
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "aee2494c-7cb1-44d4-b32e-06b0faebe231",
+            "zIndex": 12,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Actor",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
           }
         ]
       },
@@ -625,6 +656,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 16
+    "threatTop": 19
   }
 }
