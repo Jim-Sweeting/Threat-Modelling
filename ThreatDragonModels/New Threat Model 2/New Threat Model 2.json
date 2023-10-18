@@ -27,8 +27,8 @@
               "height": 420
             },
             "shape": "trust-boundary-box",
-            "id": "969e101a-b70d-44ed-8462-063e3933ce60",
             "zIndex": -1,
+            "id": "969e101a-b70d-44ed-8462-063e3933ce60",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -55,8 +55,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "053825c8-38e1-48b4-b4f9-a78e7bb92c8b",
             "zIndex": 1,
+            "id": "053825c8-38e1-48b4-b4f9-a78e7bb92c8b",
             "data": {
               "type": "tm.Flow",
               "name": "Process",
@@ -93,8 +93,8 @@
             },
             "visible": true,
             "shape": "store",
-            "id": "1b06d7f0-5b36-4aa5-9b07-5ee3b3023b7f",
             "zIndex": 2,
+            "id": "1b06d7f0-5b36-4aa5-9b07-5ee3b3023b7f",
             "data": {
               "type": "tm.Store",
               "name": "Store",
@@ -107,80 +107,6 @@
               "isSigned": false,
               "hasOpenThreats": false,
               "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 197,
-              "y": 130
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
-            "attrs": {
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
-            "id": "2b779520-6317-4be9-8669-84f81e1d195b",
-            "zIndex": 3,
-            "data": {
-              "type": "tm.Flow",
-              "name": "Actor",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "providesAuthentication": false,
-              "hasOpenThreats": false,
-              "threats": [],
-              "isBidirectional": false,
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isBidirectional": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "a36d680f-8ce8-4914-bd6a-83dee508f465",
-            "source": {
-              "cell": "2b779520-6317-4be9-8669-84f81e1d195b"
-            },
-            "target": {
-              "cell": "053825c8-38e1-48b4-b4f9-a78e7bb92c8b"
             }
           },
           {
@@ -280,8 +206,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "c0817345-e14e-497f-a69e-c5cc250c6b60",
             "zIndex": 11,
+            "id": "c0817345-e14e-497f-a69e-c5cc250c6b60",
             "data": {
               "type": "tm.Flow",
               "name": "Process",
@@ -699,6 +625,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 8
+    "threatTop": 16
   }
 }
