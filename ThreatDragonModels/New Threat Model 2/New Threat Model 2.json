@@ -140,13 +140,14 @@
               "hasOpenThreats": false,
               "threats": []
             },
-            "id": "d5b2fab3-f11f-4cf3-be73-1164b180527f",
+            "id": "31f4bc73-b72d-4973-af0d-d06854cc0a48",
             "source": {
-              "cell": "053825c8-38e1-48b4-b4f9-a78e7bb92c8b"
+              "cell": "c0817345-e14e-497f-a69e-c5cc250c6b60"
             },
             "target": {
-              "cell": "1b06d7f0-5b36-4aa5-9b07-5ee3b3023b7f"
-            }
+              "cell": "053825c8-38e1-48b4-b4f9-a78e7bb92c8b"
+            },
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -179,14 +180,13 @@
               "hasOpenThreats": false,
               "threats": []
             },
-            "id": "31f4bc73-b72d-4973-af0d-d06854cc0a48",
+            "id": "d118df1a-849d-405c-8af9-35afd31447dc",
             "source": {
-              "cell": "c0817345-e14e-497f-a69e-c5cc250c6b60"
+              "cell": "aee2494c-7cb1-44d4-b32e-06b0faebe231"
             },
             "target": {
               "cell": "053825c8-38e1-48b4-b4f9-a78e7bb92c8b"
-            },
-            "vertices": []
+            }
           },
           {
             "position": {
@@ -241,17 +241,21 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "aee2494c-7cb1-44d4-b32e-06b0faebe231",
             "zIndex": 12,
+            "id": "aee2494c-7cb1-44d4-b32e-06b0faebe231",
             "data": {
-              "type": "tm.Actor",
-              "name": "Actor",
+              "type": "tm.Flow",
+              "name": "Data Flow",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
               "hasOpenThreats": false,
-              "threats": []
+              "threats": [],
+              "isBidirectional": false,
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false
             }
           }
         ]
@@ -862,6 +866,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 21
+    "threatTop": 26
   }
 }
