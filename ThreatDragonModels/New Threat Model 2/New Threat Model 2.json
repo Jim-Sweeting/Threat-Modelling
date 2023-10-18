@@ -768,7 +768,13 @@
             },
             "target": {
               "cell": "c2d991cb-2c32-4683-8aa3-cbabea55b959"
-            }
+            },
+            "vertices": [
+              {
+                "x": 350,
+                "y": 130
+              }
+            ]
           },
           {
             "position": {
@@ -922,7 +928,7 @@
               "name": "Inputs",
               "description": "",
               "outOfScope": true,
-              "reasonOutOfScope": "",
+              "reasonOutOfScope": "External integration(s)",
               "providesAuthentication": false,
               "hasOpenThreats": false,
               "threats": [],
