@@ -910,7 +910,7 @@
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
-                "strokeDasharray": null
+                "strokeDasharray": "4 3"
               }
             },
             "visible": true,
@@ -919,9 +919,9 @@
             "zIndex": 14,
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Inputs",
               "description": "",
-              "outOfScope": false,
+              "outOfScope": true,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
               "hasOpenThreats": false,
