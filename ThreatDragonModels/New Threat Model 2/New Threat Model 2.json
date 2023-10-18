@@ -372,6 +372,19 @@
                   "new": false,
                   "number": 29,
                   "score": ""
+                },
+                {
+                  "id": "1771a05b-cbbd-4463-aeb0-718e3947e6ed",
+                  "title": "OWASP API1:2023 Broken Object Level Authorisation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Confidentiality",
+                  "description": "Attackers can exploit API endpoints that are vulnerable to broken object-level authorisation by manipulating the ID of an object that is sent within the request. Object IDs can be anything from sequential integers, UUIDs, or generic strings. Regardless of the data type, they are easy to identify in the request target (path or query string parameters), request headers, or even as part of the request payload. Unauthorised access to other users’ objects can result in data disclosure to unauthorised parties, data loss, or data manipulation. Under certain circumstances, unauthorised access to objects can also lead to full account takeover.",
+                  "mitigation": "- Implement a proper authorisation mechanism that relies on the user policies and hierarchy.\n- Use the authorisation mechanism to check if the logged-in user has access to perform the requested action on the record in every function that uses an input from the client to access a record in the database.\n- Prefer the use of random and unpredictable values as GUIDs for records' IDs.\n- Write tests to evaluate the vulnerability of the authorisation mechanism. Do not deploy changes that make the tests fail.\n\nReferences:\n\nhttps://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html\nhttps://cheatsheetseries.owasp.org/cheatsheets/Authorization_Testing_Automation_Cheat_Sheet.html",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 30,
+                  "score": ""
                 }
               ],
               "isBidirectional": false,
@@ -1363,6 +1376,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 29
+    "threatTop": 30
   }
 }
