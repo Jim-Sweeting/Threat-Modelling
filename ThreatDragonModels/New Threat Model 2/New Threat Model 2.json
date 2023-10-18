@@ -340,7 +340,7 @@
             "id": "c2d991cb-2c32-4683-8aa3-cbabea55b959",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Process",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
