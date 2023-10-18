@@ -1012,8 +1012,8 @@
               "height": 370
             },
             "shape": "trust-boundary-box",
-            "id": "63731350-5920-48c3-ba43-3e9eed36aa6d",
             "zIndex": -1,
+            "id": "63731350-5920-48c3-ba43-3e9eed36aa6d",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -1040,8 +1040,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "1ca3298b-3e54-4400-a0cd-328a0bb93600",
             "zIndex": 1,
+            "id": "1ca3298b-3e54-4400-a0cd-328a0bb93600",
             "data": {
               "type": "tm.Flow",
               "name": "Process",
@@ -1089,8 +1089,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "ef19ef0e-a363-4ebf-ad1d-56005f76dc0e",
             "zIndex": 2,
+            "id": "ef19ef0e-a363-4ebf-ad1d-56005f76dc0e",
             "data": {
               "type": "tm.Flow",
               "name": "Data Flow",
@@ -1127,8 +1127,8 @@
             },
             "visible": true,
             "shape": "store",
-            "id": "89baf95c-aa2e-4628-97d6-4795f9a23ece",
             "zIndex": 3,
+            "id": "89baf95c-aa2e-4628-97d6-4795f9a23ece",
             "data": {
               "type": "tm.Store",
               "name": "Store",
@@ -1164,8 +1164,8 @@
             },
             "visible": true,
             "shape": "store",
-            "id": "5d28c1b4-2e90-4281-a848-d3244fec317a",
             "zIndex": 4,
+            "id": "5d28c1b4-2e90-4281-a848-d3244fec317a",
             "data": {
               "type": "tm.Store",
               "name": "Store",
@@ -1198,8 +1198,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "20eee6aa-9df2-49b2-adc1-03a866608aa5",
             "zIndex": 5,
+            "id": "20eee6aa-9df2-49b2-adc1-03a866608aa5",
             "data": {
               "type": "tm.Flow",
               "name": "Data Flow",
