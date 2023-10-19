@@ -438,7 +438,7 @@
               "description": "DynamoDB data store",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "isALog": false,
+              "isALog": true,
               "storesCredentials": false,
               "isEncrypted": true,
               "isSigned": false,
