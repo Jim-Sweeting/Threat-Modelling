@@ -385,6 +385,19 @@
                   "new": false,
                   "number": 30,
                   "score": ""
+                },
+                {
+                  "id": "7732e921-fefe-46a0-a5cf-9aa7d3b17d88",
+                  "title": "OWASP API8:2023 and AO5:2021 Security Misconfiguration",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Availability",
+                  "description": "Attackers will often attempt to find unpatched flaws, common endpoints, services running with insecure default configurations, or unprotected files and directories to gain unauthorised access or knowledge of the system. Most of this is public knowledge and exploits may be available.",
+                  "mitigation": "The API life cycle should include:\n- A repeatable hardening process leading to fast and easy deployment of a properly locked down environment\n- A task to review and update configurations across the entire API stack. The review should include: orchestration files, API components, and cloud services (e.g. S3 bucket permissions)\n- An automated process to continuously assess the effectiveness of the configuration and settings in all environments",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 31,
+                  "score": ""
                 }
               ],
               "isBidirectional": false,
@@ -979,6 +992,10 @@
             "vertices": [
               {
                 "x": 420,
+                "y": 190
+              },
+              {
+                "x": 420,
                 "y": 220
               }
             ]
@@ -1376,6 +1393,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 30
+    "threatTop": 31
   }
 }
