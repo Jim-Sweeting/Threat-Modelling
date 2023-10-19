@@ -948,7 +948,7 @@
             "id": "1c58b34d-ccb8-41d1-866a-ec0023500a6d",
             "zIndex": 16,
             "data": {
-              "type": "tm.Store",
+              "type": "tm.Flow",
               "name": "Logs (Local)",
               "description": "",
               "outOfScope": false,
@@ -958,7 +958,10 @@
               "isEncrypted": false,
               "isSigned": false,
               "hasOpenThreats": false,
-              "threats": []
+              "threats": [],
+              "isBidirectional": false,
+              "protocol": "",
+              "isPublicNetwork": false
             }
           }
         ]
