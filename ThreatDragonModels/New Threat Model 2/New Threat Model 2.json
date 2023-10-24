@@ -1055,6 +1055,26 @@
           },
           {
             "position": {
+              "x": 1477,
+              "y": 68.00000000000034
+            },
+            "size": {
+              "width": 200,
+              "height": 230
+            },
+            "shape": "trust-boundary-box",
+            "id": "60012616-01f6-49d9-b0f5-2cdbcbc41d99",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 660,
               "y": 160
             },
@@ -1340,6 +1360,45 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "ab2800d1-ef7a-4408-afc9-0dcb86fee771",
+            "source": {
+              "cell": "25f07894-ebf9-47b5-95c6-cdc7ca7177a7"
+            },
+            "target": {
+              "cell": "1029d31a-80ce-4a56-905b-ad1f6f61905c"
+            }
+          },
+          {
             "position": {
               "x": 235,
               "y": 378
@@ -1474,6 +1533,119 @@
               "privilegeLevel": "",
               "hasOpenThreats": false,
               "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1517,
+              "y": 217.00000000000017
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "80089fc2-690e-4494-baa5-b9a687c84a24",
+            "zIndex": 15,
+            "data": {
+              "type": "tm.Flow",
+              "name": "Store",
+              "description": "AWS Secrets Manager",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": [],
+              "isBidirectional": false,
+              "protocol": "",
+              "isPublicNetwork": false
+            }
+          },
+          {
+            "position": {
+              "x": 1547,
+              "y": 130
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "AWS\nSecrets Manager"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "f6083ece-e780-413e-8519-fa1752de8a2d",
+            "zIndex": 16,
+            "data": {
+              "type": "tm.Flow",
+              "name": "AWS\nSecrets Manager",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": [],
+              "isBidirectional": false,
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false
+            }
+          },
+          {
+            "position": {
+              "x": 1119,
+              "y": 160
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "1029d31a-80ce-4a56-905b-ad1f6f61905c",
+            "zIndex": 17,
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": [],
+              "isBidirectional": false,
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false
             }
           }
         ]
