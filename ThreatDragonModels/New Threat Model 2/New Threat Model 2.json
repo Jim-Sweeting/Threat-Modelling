@@ -1110,15 +1110,15 @@
               "threats": []
             },
             "id": "5eff841a-7cd9-49f3-92f7-12d07a109624",
+            "labels": [
+              "Logging (?) Data Flow"
+            ],
             "source": {
               "cell": "63731350-5920-48c3-ba43-3e9eed36aa6d"
             },
             "target": {
               "cell": "8ae1a541-248c-42f0-8692-50eb960c0909"
-            },
-            "labels": [
-              "Logging (?) Data Flow"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -1388,6 +1388,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Private\nAPI Gateway"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -1400,8 +1403,8 @@
             "id": "25f07894-ebf9-47b5-95c6-cdc7ca7177a7",
             "data": {
               "type": "tm.Process",
-              "name": "Process",
-              "description": "Private API Gateway",
+              "name": "Private\nAPI Gateway",
+              "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
@@ -1462,7 +1465,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Public\nAPI\nGateway"
+                "text": "Public\nAPI Gateway"
               },
               "body": {
                 "stroke": "#333333",
@@ -1476,7 +1479,7 @@
             "id": "e8af9b8e-c6d5-457e-a872-d1e4b1d50fae",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Public\nAPI Gateway",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1741,8 +1744,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "e2a918f6-1911-4bd9-920f-495d19d11321",
             "zIndex": 21,
+            "id": "e2a918f6-1911-4bd9-920f-495d19d11321",
             "data": {
               "type": "tm.Process",
               "name": "Authorise",
@@ -1775,8 +1778,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "7a63bac7-f985-4601-b5f2-01f856aab445",
             "zIndex": 22,
+            "id": "7a63bac7-f985-4601-b5f2-01f856aab445",
             "data": {
               "type": "tm.Process",
               "name": "Session",
