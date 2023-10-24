@@ -976,7 +976,7 @@
             "data": {
               "type": "tm.Store",
               "name": "{purpose}\n[Frontend Dynamo DB]",
-              "description": "What is the purpose/function of this store?",
+              "description": "What is the purpose/function of this data store? What data is held here?",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "isALog": false,
@@ -1657,6 +1657,45 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "d82b9c47-eab9-4c37-98e3-864334df2ed5",
+            "source": {
+              "cell": "f6083ece-e780-413e-8519-fa1752de8a2d"
+            },
+            "target": {
+              "cell": "80089fc2-690e-4494-baa5-b9a687c84a24"
+            }
+          },
+          {
             "position": {
               "x": 118.75,
               "y": 407.00000000000017
@@ -1879,7 +1918,7 @@
             "id": "f6083ece-e780-413e-8519-fa1752de8a2d",
             "data": {
               "type": "tm.Flow",
-              "name": "AWS\nSecrets Manager",
+              "name": "Data Flow",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -2031,7 +2070,7 @@
             "data": {
               "type": "tm.Flow",
               "name": "KBV Dynamo DB",
-              "description": "What purpose does this serve?",
+              "description": "What is the purpose/function of this data store? What data is held here?",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "isALog": false,
