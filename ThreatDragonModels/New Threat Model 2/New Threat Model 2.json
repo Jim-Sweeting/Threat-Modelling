@@ -921,7 +921,7 @@
             "data": {
               "type": "tm.Flow",
               "name": "FarGate\nECS",
-              "description": "What is this process and what does it do? What containers are running here and why?\nID: 24daf8ef-12e4-47d5-9986-d6872d2ea7ea",
+              "description": "\nID: 24daf8ef-12e4-47d5-9986-d6872d2ea7ea\nWhat is this process and what does it do? What containers are running here and why?",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
@@ -1897,7 +1897,7 @@
             "data": {
               "type": "tm.Flow",
               "name": "Public\nAPI Gateway",
-              "description": "",
+              "description": "ID: f311d46a-5f76-4ab1-8712-7ae582ce6b42",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
