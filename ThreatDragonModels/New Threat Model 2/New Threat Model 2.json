@@ -1075,8 +1075,8 @@
           },
           {
             "position": {
-              "x": 1017,
-              "y": 308
+              "x": 1020,
+              "y": 390
             },
             "size": {
               "width": 230,
@@ -1734,8 +1734,8 @@
           },
           {
             "position": {
-              "x": 1164,
-              "y": 350.00000000000006
+              "x": 1167,
+              "y": 432.00000000000006
             },
             "size": {
               "width": 60,
@@ -1768,8 +1768,8 @@
           },
           {
             "position": {
-              "x": 1040,
-              "y": 350
+              "x": 1043,
+              "y": 432
             },
             "size": {
               "width": 60,
@@ -1798,6 +1798,49 @@
               "privilegeLevel": "",
               "hasOpenThreats": false,
               "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1198,
+              "y": 238
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "KBV "
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "2af6b498-7efe-4084-b063-067188f4a59b",
+            "zIndex": 20,
+            "data": {
+              "type": "tm.Flow",
+              "name": "KBV ",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": [],
+              "isBidirectional": false,
+              "protocol": "",
+              "isPublicNetwork": false
             }
           }
         ]
