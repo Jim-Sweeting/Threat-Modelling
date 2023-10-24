@@ -1109,8 +1109,8 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Logging Data Flow? (57882036-21dd-4608-9e7e-d1b475a63750)",
-              "description": "Not clear what uses this or what the log types/format are.",
+              "name": "Logging Data Flow?",
+              "description": "ID: 57882036-21dd-4608-9e7e-d1b475a63750\nNot clear what uses this or what the log types/format are.",
               "outOfScope": false,
               "isBidirectional": false,
               "reasonOutOfScope": "",
@@ -1122,7 +1122,7 @@
             },
             "id": "5eff841a-7cd9-49f3-92f7-12d07a109624",
             "labels": [
-              "Logging Data Flow? (57882036-21dd-4608-9e7e-d1b475a63750)"
+              "Logging Data Flow?"
             ],
             "source": {
               "cell": "63731350-5920-48c3-ba43-3e9eed36aa6d"
@@ -2366,6 +2366,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 33
+    "threatTop": 34
   }
 }
