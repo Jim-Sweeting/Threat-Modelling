@@ -1030,8 +1030,8 @@
           },
           {
             "position": {
-              "x": 231,
-              "y": 250.00000000000006
+              "x": 113.75,
+              "y": 240.00000000000006
             },
             "size": {
               "width": 130,
@@ -1224,8 +1224,8 @@
           },
           {
             "position": {
-              "x": 238.75,
-              "y": 160
+              "x": 122.5,
+              "y": 130
             },
             "size": {
               "width": 112.5,
@@ -1544,9 +1544,51 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Logging (?) Data Flow",
+              "description": "Not clear what uses this or what the log types/format are.",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "5eff841a-7cd9-49f3-92f7-12d07a109624",
+            "source": {
+              "cell": "63731350-5920-48c3-ba43-3e9eed36aa6d"
+            },
+            "target": {
+              "cell": "8ae1a541-248c-42f0-8692-50eb960c0909"
+            },
+            "labels": [
+              "Logging (?) Data Flow"
+            ]
+          },
+          {
             "position": {
-              "x": 235,
-              "y": 378
+              "x": 118.75,
+              "y": 407.00000000000017
             },
             "size": {
               "width": 120,
@@ -1616,8 +1658,8 @@
           },
           {
             "position": {
-              "x": 265,
-              "y": 280.00000000000006
+              "x": 148.75,
+              "y": 273.00000000000034
             },
             "size": {
               "width": 60,
@@ -1636,7 +1678,7 @@
             "id": "24292938-d2cb-4863-846f-505da8040670",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Process",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1827,14 +1869,18 @@
             "zIndex": 18,
             "id": "9ee18cac-2f2d-430c-b22f-eae38d789d32",
             "data": {
-              "type": "tm.Process",
-              "name": "Issue\nCredential",
-              "description": "Lambda function - doing what?",
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
               "hasOpenThreats": false,
-              "threats": []
+              "threats": [],
+              "isBidirectional": false,
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false
             }
           },
           {
