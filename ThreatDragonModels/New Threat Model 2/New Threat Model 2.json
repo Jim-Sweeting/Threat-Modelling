@@ -909,8 +909,8 @@
                 "text": "FarGate\nECS"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -925,8 +925,22 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": [],
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "f8d37d96-9429-4a8b-912a-5d38fd7892ff",
+                  "title": "Information Disclosure",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Use AWS KMS to encrypt ephemeral storage",
+                  "modelType": "Generic",
+                  "new": false,
+                  "number": 47,
+                  "score": "tbc"
+                }
+              ],
               "isBidirectional": false,
               "protocol": "",
               "isEncrypted": false,
@@ -2460,6 +2474,6 @@
     ],
     "diagramTop": 5,
     "reviewer": "",
-    "threatTop": 46
+    "threatTop": 47
   }
 }
