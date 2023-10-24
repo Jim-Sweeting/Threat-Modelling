@@ -1075,7 +1075,7 @@
           },
           {
             "position": {
-              "x": 1020,
+              "x": 1179,
               "y": 390
             },
             "size": {
@@ -1091,8 +1091,35 @@
             "id": "36f2cae3-7d97-4be1-98be-e7c2539e27e4",
             "zIndex": -1,
             "data": {
-              "type": "tm.BoundaryBox",
+              "type": "tm.Flow",
               "name": "Public Common Functions",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 844,
+              "y": 390
+            },
+            "size": {
+              "width": 128,
+              "height": 60
+            },
+            "shape": "trust-boundary-box",
+            "id": "d01268f7-135d-4bea-b750-97961d6ddad9",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
@@ -1473,6 +1500,45 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "705f58f2-d3b7-4dea-bb50-d4a4dd9cf3df",
+            "source": {
+              "cell": "36f2cae3-7d97-4be1-98be-e7c2539e27e4"
+            },
+            "target": {
+              "cell": "2af6b498-7efe-4084-b063-067188f4a59b"
+            }
+          },
+          {
             "position": {
               "x": 235,
               "y": 378
@@ -1734,7 +1800,7 @@
           },
           {
             "position": {
-              "x": 1167,
+              "x": 1326,
               "y": 432.00000000000006
             },
             "size": {
@@ -1768,7 +1834,7 @@
           },
           {
             "position": {
-              "x": 1043,
+              "x": 1202,
               "y": 432
             },
             "size": {
@@ -1802,8 +1868,8 @@
           },
           {
             "position": {
-              "x": 1198,
-              "y": 238
+              "x": 1234,
+              "y": 250
             },
             "size": {
               "width": 120,
@@ -1811,7 +1877,7 @@
             },
             "attrs": {
               "text": {
-                "text": "KBV "
+                "text": "KBV Dynamo DB"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -1828,8 +1894,8 @@
             "zIndex": 20,
             "data": {
               "type": "tm.Flow",
-              "name": "KBV ",
-              "description": "",
+              "name": "KBV Dynamo DB",
+              "description": "What purpose does this serve?",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "isALog": false,
