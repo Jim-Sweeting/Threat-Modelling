@@ -1109,48 +1109,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "{Logging Data Flow?}",
-              "description": "ID: 57882036-21dd-4608-9e7e-d1b475a63750\nNot clear what uses this or what the log types/format are.",
-              "outOfScope": false,
-              "isBidirectional": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "5eff841a-7cd9-49f3-92f7-12d07a109624",
-            "labels": [
-              "{Logging Data Flow?}"
-            ],
-            "source": {
-              "cell": "63731350-5920-48c3-ba43-3e9eed36aa6d"
-            },
-            "target": {
-              "cell": "8ae1a541-248c-42f0-8692-50eb960c0909"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Data Flow",
               "description": "What is this flow?",
               "outOfScope": false,
@@ -1730,8 +1688,8 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "{Description}",
-              "description": "What is this data flow? Is it over a public network? Is it encrypted?\nID: 86f1c9a6-dfea-4754-a9cf-9eac3a4ab909",
+              "name": "{Logging Data Flow?}",
+              "description": "ID: 57882036-21dd-4608-9e7e-d1b475a63750\nNot clear what uses this (what is logging and what are they logging) or what the log types/format are.",
               "outOfScope": false,
               "isBidirectional": false,
               "reasonOutOfScope": "",
@@ -1740,6 +1698,89 @@
               "isPublicNetwork": false,
               "hasOpenThreats": false,
               "threats": []
+            },
+            "id": "5eff841a-7cd9-49f3-92f7-12d07a109624",
+            "labels": [
+              "{Logging Data Flow?}"
+            ],
+            "source": {
+              "cell": "63731350-5920-48c3-ba43-3e9eed36aa6d"
+            },
+            "target": {
+              "cell": "8ae1a541-248c-42f0-8692-50eb960c0909"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "{Description}",
+              "description": "What is this data flow? Is it over a public network? Is it encrypted?\nID: 86f1c9a6-dfea-4754-a9cf-9eac3a4ab909",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "3a71091a-23ff-44d1-a41b-0dc199fcb849",
+                  "title": "Generic Tampering Threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "Generic",
+                  "new": false,
+                  "number": 40,
+                  "score": ""
+                },
+                {
+                  "id": "b8a2e5d0-94dd-4adf-beb8-bbbb38eb68b2",
+                  "title": "Generic Information Disclosure Threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "Generic",
+                  "new": false,
+                  "number": 41,
+                  "score": ""
+                },
+                {
+                  "id": "cefc476d-095d-43f1-9625-f77b9d3393f3",
+                  "title": "Generic Denial of Service Threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "Generic",
+                  "new": false,
+                  "number": 42,
+                  "score": ""
+                }
+              ]
             },
             "id": "28cd8414-23aa-4fcb-b181-4d6d99b7d649",
             "labels": [
@@ -1885,8 +1926,8 @@
                 "text": "Public\nAPI Gateway"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1901,8 +1942,22 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": [],
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "ff07bc77-1fcd-4bb3-a215-0d4ee382965b",
+                  "title": "API1:2023 Broken Object Level Authorisation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Elevation of privilege",
+                  "description": "Attackers can exploit API endpoints that are vulnerable to broken object-level authorization by manipulating the ID of an object that is sent within the request. Object IDs can be anything from sequential integers, UUIDs, or generic strings. Regardless of the data type, they are easy to identify in the request target (path or query string parameters), request headers, or even as part of the request payload.\n\nThis issue is extremely common in API-based applications because the server component usually does not fully track the client’s state, and instead, relies more on parameters like object IDs, that are sent from the client to decide which objects to access. The server response is usually enough to understand whether the request was successful.\n\nUnauthorized access to other users’ objects can result in data disclosure to unauthorized parties, data loss, or data manipulation. Under certain circumstances, unauthorized access to objects can also lead to full account takeover.",
+                  "mitigation": "Every API endpoint that receives an ID of an object, and performs any action on the object, should implement object-level authorization checks. The checks should validate that the logged-in user has permissions to perform the requested action on the requested object.\n\n- Implement a proper authorization mechanism that relies on the user policies and hierarchy.\n- Use the authorization mechanism to check if the logged-in user has access to perform the requested action on the record in every function that uses an input from the client to access a record in the database.\n- Prefer the use of random and unpredictable values as GUIDs for records' IDs.\n- Write tests to evaluate the vulnerability of the authorization mechanism. Do not deploy changes that make the tests fail.\n\nRefer to https://owasp.org/API-Security/editions/2023/en/0xa1-broken-object-level-authorization/\n",
+                  "modelType": "Generic",
+                  "new": false,
+                  "number": 43,
+                  "score": "6.3"
+                }
+              ],
               "isBidirectional": false,
               "protocol": "",
               "isEncrypted": false,
@@ -2610,6 +2665,6 @@
     ],
     "diagramTop": 5,
     "reviewer": "",
-    "threatTop": 39
+    "threatTop": 43
   }
 }
