@@ -1956,6 +1956,45 @@
                   "new": false,
                   "number": 43,
                   "score": "6.3"
+                },
+                {
+                  "id": "c2c9f68f-3587-44af-b580-4b6b873ca5f3",
+                  "title": "Information Disclosure",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "As the result of a successful exploit of API1:2023 Broken Object Level Authorisation, it is possible that confidential and sensitive information could be disclosed.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "Generic",
+                  "new": false,
+                  "number": 44,
+                  "score": ""
+                },
+                {
+                  "id": "63569719-6f80-4874-8af7-4a10fc727fd4",
+                  "title": "Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "As the result of a successful exploit of API1:2023 Broken Object Level Authorisation, it is possible that confidential and sensitive information could be modified.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "Generic",
+                  "new": false,
+                  "number": 45,
+                  "score": ""
+                },
+                {
+                  "id": "89226b34-b34a-42db-8a5e-e2e2065255ee",
+                  "title": "Denial of Service",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "As the result of a successful exploit of API1:2023 Broken Object Level Authorisation, it is possible that confidential and sensitive information could be destroyed.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "Generic",
+                  "new": false,
+                  "number": 46,
+                  "score": ""
                 }
               ],
               "isBidirectional": false,
@@ -2421,6 +2460,6 @@
     ],
     "diagramTop": 5,
     "reviewer": "",
-    "threatTop": 43
+    "threatTop": 46
   }
 }
