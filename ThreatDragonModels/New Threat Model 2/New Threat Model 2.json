@@ -770,8 +770,8 @@
           },
           {
             "position": {
-              "x": 113.75,
-              "y": 240.00000000000006
+              "x": -80,
+              "y": 220
             },
             "size": {
               "width": 130,
@@ -989,8 +989,8 @@
           },
           {
             "position": {
-              "x": 122.5,
-              "y": 130
+              "x": -71.25,
+              "y": 57.00000000000017
             },
             "size": {
               "width": 112.5,
@@ -1123,7 +1123,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Logging (?) Data Flow",
+              "name": "Logging Data Flow? (57882036-21dd-4608-9e7e-d1b475a63750)",
               "description": "Not clear what uses this or what the log types/format are.",
               "outOfScope": false,
               "isBidirectional": false,
@@ -1136,7 +1136,7 @@
             },
             "id": "5eff841a-7cd9-49f3-92f7-12d07a109624",
             "labels": [
-              "Logging (?) Data Flow"
+              "Logging Data Flow? (57882036-21dd-4608-9e7e-d1b475a63750)"
             ],
             "source": {
               "cell": "63731350-5920-48c3-ba43-3e9eed36aa6d"
@@ -1546,7 +1546,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow (86f1c9a6-dfea-4754-a9cf-9eac3a4ab909)",
+              "name": "{Description} (86f1c9a6-dfea-4754-a9cf-9eac3a4ab909)",
               "description": "What is this data flow? Is it over a public network? Is it encrypted?",
               "outOfScope": false,
               "isBidirectional": false,
@@ -1571,7 +1571,7 @@
               }
             ],
             "labels": [
-              "Data Flow (86f1c9a6-dfea-4754-a9cf-9eac3a4ab909)"
+              "{Description} (86f1c9a6-dfea-4754-a9cf-9eac3a4ab909)"
             ]
           },
           {
@@ -1736,7 +1736,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow (64bef0f9-b7e6-43fc-9d02-fe6b5b97317d)",
+              "name": "{Description} (64bef0f9-b7e6-43fc-9d02-fe6b5b97317d)",
               "description": "What is this data flow? Is it over a private network? Is it encrypted?",
               "outOfScope": false,
               "isBidirectional": false,
@@ -1756,18 +1756,18 @@
             },
             "vertices": [
               {
-                "x": 330,
-                "y": 306
+                "x": 136.25,
+                "y": 285.99999999999994
               }
             ],
             "labels": [
-              "Data Flow (64bef0f9-b7e6-43fc-9d02-fe6b5b97317d)"
+              "{Description} (64bef0f9-b7e6-43fc-9d02-fe6b5b97317d)"
             ]
           },
           {
             "position": {
-              "x": 118.75,
-              "y": 407.00000000000017
+              "x": -75,
+              "y": 450
             },
             "size": {
               "width": 120,
@@ -1844,8 +1844,8 @@
           },
           {
             "position": {
-              "x": 148.75,
-              "y": 273.00000000000034
+              "x": -45,
+              "y": 253.00000000000028
             },
             "size": {
               "width": 60,
