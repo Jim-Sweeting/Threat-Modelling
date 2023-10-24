@@ -763,7 +763,7 @@
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
-              "description": "",
+              "description": "Is this actually a security boundary? If so, how is it implemented?",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
@@ -833,7 +833,7 @@
             "data": {
               "type": "tm.Flow",
               "name": "Public Common Functions",
-              "description": "",
+              "description": "Is this actually a security boundary? If so, how is it implemented?",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "outOfScope": false,
@@ -865,7 +865,7 @@
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Private Common Functions",
-              "description": "",
+              "description": "Is this actually a security boundary? If so, how is it implemented?",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
@@ -881,7 +881,7 @@
             },
             "attrs": {
               "text": {
-                "text": "{Purpose}\nProcess"
+                "text": "FarGate\nECS"
               },
               "body": {
                 "stroke": "red",
@@ -895,8 +895,8 @@
             "id": "1ca3298b-3e54-4400-a0cd-328a0bb93600",
             "data": {
               "type": "tm.Flow",
-              "name": "{Purpose}\nProcess",
-              "description": "",
+              "name": "FarGate\nECS",
+              "description": "What is this process and what does it do?",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
@@ -951,7 +951,7 @@
             "data": {
               "type": "tm.Store",
               "name": "{purpose}\n[Frontend Dynamo DB]",
-              "description": "",
+              "description": "What is the purpose/function of this store?",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "isALog": false,
