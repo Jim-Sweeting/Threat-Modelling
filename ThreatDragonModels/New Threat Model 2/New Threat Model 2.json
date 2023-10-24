@@ -1696,6 +1696,55 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "8c9e1954-3c40-446b-924d-0c3d5389137f",
+            "source": {
+              "cell": "25f07894-ebf9-47b5-95c6-cdc7ca7177a7"
+            },
+            "target": {
+              "cell": "d01268f7-135d-4bea-b750-97961d6ddad9"
+            },
+            "vertices": [
+              {
+                "x": 870,
+                "y": 260
+              },
+              {
+                "x": 890,
+                "y": 350
+              }
+            ]
+          },
+          {
             "position": {
               "x": 118.75,
               "y": 407.00000000000017
@@ -1760,7 +1809,7 @@
             "id": "25f07894-ebf9-47b5-95c6-cdc7ca7177a7",
             "data": {
               "type": "tm.Flow",
-              "name": "Private\nAPI Gateway",
+              "name": "Data Flow",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
