@@ -985,12 +985,12 @@
         "cells": [
           {
             "position": {
-              "x": 482,
-              "y": 67.9999999999998
+              "x": 481.99999999999966,
+              "y": 68.00000000000034
             },
             "size": {
               "width": 960,
-              "height": 370
+              "height": 470
             },
             "shape": "trust-boundary-box",
             "attrs": {
@@ -1068,6 +1068,31 @@
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 1017,
+              "y": 308
+            },
+            "size": {
+              "width": 230,
+              "height": 120
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "Public Common Functions"
+              }
+            },
+            "id": "36f2cae3-7d97-4be1-98be-e7c2539e27e4",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Public Common Functions",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
@@ -1399,6 +1424,55 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "e52cc944-e40d-49c2-be81-af51cfb9f273",
+            "source": {
+              "cell": "e8af9b8e-c6d5-457e-a872-d1e4b1d50fae"
+            },
+            "target": {
+              "cell": "36f2cae3-7d97-4be1-98be-e7c2539e27e4"
+            },
+            "vertices": [
+              {
+                "x": 660,
+                "y": 500
+              },
+              {
+                "x": 970,
+                "y": 500
+              }
+            ]
+          },
+          {
             "position": {
               "x": 235,
               "y": 378
@@ -1514,6 +1588,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Public\nAPI\nGateway"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -1525,14 +1602,18 @@
             "id": "e8af9b8e-c6d5-457e-a872-d1e4b1d50fae",
             "zIndex": 14,
             "data": {
-              "type": "tm.Process",
-              "name": "Process",
-              "description": "Public API Gateway",
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
               "hasOpenThreats": false,
-              "threats": []
+              "threats": [],
+              "isBidirectional": false,
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false
             }
           },
           {
@@ -1649,6 +1730,74 @@
               "protocol": "",
               "isEncrypted": false,
               "isPublicNetwork": false
+            }
+          },
+          {
+            "position": {
+              "x": 1164,
+              "y": 350.00000000000006
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Issue\nCredential"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "9ee18cac-2f2d-430c-b22f-eae38d789d32",
+            "zIndex": 18,
+            "data": {
+              "type": "tm.Process",
+              "name": "Issue\nCredential",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1040,
+              "y": 350
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Access\nToken"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "bf78fb4c-2017-4250-96d5-d2405c12b3bd",
+            "zIndex": 19,
+            "data": {
+              "type": "tm.Process",
+              "name": "Access\nToken",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
             }
           }
         ]
