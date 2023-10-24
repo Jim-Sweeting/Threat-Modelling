@@ -1638,7 +1638,7 @@
             "data": {
               "type": "tm.Flow",
               "name": "Data Flow",
-              "description": "",
+              "description": "What is this flow?",
               "outOfScope": false,
               "isBidirectional": false,
               "reasonOutOfScope": "",
