@@ -1623,6 +1623,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Post\nAudit\nLogs"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -1635,7 +1638,7 @@
             "zIndex": 17,
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Post\nAudit\nLogs",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
