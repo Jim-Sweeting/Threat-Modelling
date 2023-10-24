@@ -909,8 +909,8 @@
                 "text": "FarGate\nECS"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -921,26 +921,12 @@
             "data": {
               "type": "tm.Flow",
               "name": "FarGate\nECS",
-              "description": "What is this process and what does it do?",
+              "description": "What is this process and what does it do? What containers are running here and why?",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "id": "2cc2cca0-1f35-41b0-82fb-c74038612b17",
-                  "title": "New generic threat",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "Generic",
-                  "new": true,
-                  "number": 0,
-                  "score": ""
-                }
-              ],
+              "hasOpenThreats": false,
+              "threats": [],
               "isBidirectional": false,
               "protocol": "",
               "isEncrypted": false,
@@ -1546,56 +1532,8 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "{Description} (86f1c9a6-dfea-4754-a9cf-9eac3a4ab909)",
-              "description": "What is this data flow? Is it over a public network? Is it encrypted?",
-              "outOfScope": false,
-              "isBidirectional": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "28cd8414-23aa-4fcb-b181-4d6d99b7d649",
-            "labels": [
-              "{Description} (86f1c9a6-dfea-4754-a9cf-9eac3a4ab909)"
-            ],
-            "source": {
-              "cell": "20eee6aa-9df2-49b2-adc1-03a866608aa5"
-            },
-            "target": {
-              "cell": "1ca3298b-3e54-4400-a0cd-328a0bb93600"
-            },
-            "vertices": [
-              {
-                "x": 380,
-                "y": 160
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "{Description} (64bef0f9-b7e6-43fc-9d02-fe6b5b97317d)",
-              "description": "What is this data flow? Is it over a private network? Is it encrypted?",
+              "name": "{Description}",
+              "description": "What is this data flow? Is it over a private network? Is it encrypted?\nID: 64bef0f9-b7e6-43fc-9d02-fe6b5b97317d",
               "outOfScope": false,
               "isBidirectional": false,
               "reasonOutOfScope": "",
@@ -1607,7 +1545,7 @@
             },
             "id": "64e57fa5-8887-4c2d-93f1-9b3e7a98a9a4",
             "labels": [
-              "{Description} (64bef0f9-b7e6-43fc-9d02-fe6b5b97317d)"
+              "{Description}"
             ],
             "source": {
               "cell": "24292938-d2cb-4863-846f-505da8040670"
@@ -1642,8 +1580,8 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "{Description} (0a378f1d-ec4a-466f-a8b5-d3de29e8ad00)",
-              "description": "What is this flow?",
+              "name": "{Description}",
+              "description": "What is this flow?\nID: 0a378f1d-ec4a-466f-a8b5-d3de29e8ad00",
               "outOfScope": false,
               "isBidirectional": false,
               "reasonOutOfScope": "",
@@ -1655,7 +1593,7 @@
             },
             "id": "8c684572-5adc-447f-aba8-5c6d9c5ead08",
             "labels": [
-              "{Description} (0a378f1d-ec4a-466f-a8b5-d3de29e8ad00)"
+              "{Description}"
             ],
             "source": {
               "cell": "1ca3298b-3e54-4400-a0cd-328a0bb93600"
@@ -1769,6 +1707,54 @@
               {
                 "x": 1430,
                 "y": 90
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "{Description}",
+              "description": "What is this data flow? Is it over a public network? Is it encrypted?\nID: 86f1c9a6-dfea-4754-a9cf-9eac3a4ab909",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "28cd8414-23aa-4fcb-b181-4d6d99b7d649",
+            "labels": [
+              "{Description}"
+            ],
+            "source": {
+              "cell": "20eee6aa-9df2-49b2-adc1-03a866608aa5"
+            },
+            "target": {
+              "cell": "1ca3298b-3e54-4400-a0cd-328a0bb93600"
+            },
+            "vertices": [
+              {
+                "x": 380,
+                "y": 160
               }
             ]
           },
@@ -2380,6 +2366,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 32
+    "threatTop": 33
   }
 }
