@@ -2171,8 +2171,8 @@
             "id": "9ee18cac-2f2d-430c-b22f-eae38d789d32",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
+              "name": "Issue\nCredential",
+              "description": "Lambda function - doing what?",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
